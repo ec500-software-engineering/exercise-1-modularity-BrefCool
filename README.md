@@ -1,16 +1,16 @@
 # EC500-Modular Design-2.4
 
-### About exercise 1
+### Update from exercise 1
 
-The assignment is in AlertSys.py, you can run directly by
+now that the Input module, Analyzer module and output module are running on different thread.
+The Input module is using callback function provided by analyzer module to put all the input data to analyzer's queue. Analyzer is using callback function provided by output module to put data into output module's queue and output module will display it.  
+
+To use this program, you should type:
 ```
-python AlertSys.py
+python main.py
 ```
 
-
-
-
-### System Diagram(Leyang Shen)
+### System Diagram
 
 <img align = center src = "https://github.com/leonshen95/EC500/blob/master/EC500%20diagram%201.jpg?raw=true">
  
