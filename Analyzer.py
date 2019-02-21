@@ -1,7 +1,7 @@
 import copy
 from threading import Thread
 from queue import Queue
-from dbmanager import *
+from dbmanager import insert
 
 class Analyzer(Thread):
     def __init__(self):
